@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <title>ML API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+	.button {
+	  background-color: #4CAF50;
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 4px 2px;
+	  cursor: pointer;
+	  border-radius: 10%;
+	}
+
+	h2 {
+	  text-align: center;
+	}
+	.pred{
+	    text-align: left;
+	    margin-left: 40px;
+	    margin-top: 30px;
+	}
+	.img{
+	    background-image: url('../static/css/RMS_Titanic_3.jpg');
+	    background-repeat: no-repeat;
+	    background-attachment: fixed;
+	    background-size: cover;
+	} 
+
+	.res{
+		font-weight: bold;
+		font-size: 35px;
+		color: red;
+	}
+
+	</style>
+</head>
+    <body class="img" style="max-width:100%;height:50%;">
+
+        <div class="pred">
+            <form action="/predict" method="post">
+            Passenger Details:<br>
+            Class : <br>
+            <input type="number" style="height:30px; width: 160px" id="field1" name="field1" placeholder="Enter Class: 1 or 2 or 3" autofocus required="true" min="1" max="3">
+            <br>
+            Sex : 
+            <br>
+            <input type="number" style="height:30px; width: 160px" id="field2" name="field2" placeholder="Enter Sex- M:1 or F:0" required="true" min="0" max="1">
+            <br>
+            Age :<br>
+            <input type="number" style="height:30px; width: 160px" id="field3" name="field3" placeholder="Enter Age" required="true" min="1" max="100">
+            <br>
+            No. of Sibling or Spouse : <br>
+            <input type="float" style="height:30px" id="field4" name="field4" placeholder="Enter number" required="true">
+            <br>
+            No. of parents or children with passenger : <br>
+            <input type="float" style="height:30px" id="field5" name="field5" placeholder="Enter number" required="true">
+            <br>
+            Fare : <br>
+            <input type="float" style="height:30px" id="field6" name="field6" placeholder="Enter fare" required="true">
+            <br>
+            Embarked : <br>
+            <input type="number" style="height:30px; width: 160px" id="field7" name="field7" placeholder="Enter C:0 or Q:1 or S:2" required="true" min="0" max="2">
+            <br>
+            <button type="submit" class="button">Predict Price</button>
+        </form>
+        <br>
+        <br>
+        <div class="res">
+        	{{ result }}
+        </div>
+        
+        </div>
+    </body>
+</html>

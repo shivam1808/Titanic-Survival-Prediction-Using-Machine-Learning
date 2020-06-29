@@ -1,0 +1,13 @@
+h2 {
+  text-align: center;
+}
+.pred{
+    text-align: left;
+    margin-left: 20px;
+}
+.img{
+    background-image: url('RMS_Titanic_3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 
