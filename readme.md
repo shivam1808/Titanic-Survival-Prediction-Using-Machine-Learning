@@ -25,13 +25,22 @@ The training set should be used to build our __Supervised Machine Learning Model
 
 ## Data Analysis:
 
-__Survival Depends upon different features__
+__Survival Depends upon different features__ <br>
 <img src='https://raw.githubusercontent.com/shivam1808/Titanic-Survival-Prediction-Using-Machine-Learning/master/Image1.PNG' border='0' alt='Prediction'/>
 
-__Survival Depends on passanger's class__
+__Survival Depends on passanger's class__ <br>
 <img src='https://raw.githubusercontent.com/shivam1808/Titanic-Survival-Prediction-Using-Machine-Learning/master/Image2.PNG' border='0' alt='Prediction'/>
 
+## Weightage of Features:
+<img src='https://raw.githubusercontent.com/shivam1808/Titanic-Survival-Prediction-Using-Machine-Learning/master/Image5.PNG' border='0' alt='Prediction'/>
 
+## Training Accuracy:
+<img src='https://raw.githubusercontent.com/shivam1808/Titanic-Survival-Prediction-Using-Machine-Learning/master/Image3.PNG' border='0' alt='Prediction'/>
+
+## Testing Accuracy:
+<img src='https://raw.githubusercontent.com/shivam1808/Titanic-Survival-Prediction-Using-Machine-Learning/master/Image4.PNG' border='0' alt='Prediction'/>
+
+## Output of WebApp:
 <img src='https://raw.githubusercontent.com/shivam1808/Titanic-Survival-Prediction-Using-Machine-Learning/master/Titanic_ML.jpg' border='0' alt='Prediction'/>
 
 
