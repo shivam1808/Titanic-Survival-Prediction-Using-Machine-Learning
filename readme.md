@@ -1,5 +1,7 @@
 # Titanic Survival Prediction Using Machine Learning
 
+For each passenger in the test set, Our model will be trained to predict whether or not they survived the sinking of the Titanic.
+
 ## Dataset Overview:
 
 The data has been split into two groups:
@@ -22,7 +24,12 @@ The training set should be used to build our __Supervised Machine Learning Model
 </ul>
 
 ## Data Analysis:
+
+__Survival Depends upon different features__
 <img src='https://raw.githubusercontent.com/shivam1808/Titanic-Survival-Prediction-Using-Machine-Learning/master/Image1.PNG' border='0' alt='Prediction'/>
+
+__Survival Depends on passanger's class__
+<img src='https://raw.githubusercontent.com/shivam1808/Titanic-Survival-Prediction-Using-Machine-Learning/master/Image2.PNG' border='0' alt='Prediction'/>
 
 
 <img src='https://raw.githubusercontent.com/shivam1808/Titanic-Survival-Prediction-Using-Machine-Learning/master/Titanic_ML.jpg' border='0' alt='Prediction'/>
